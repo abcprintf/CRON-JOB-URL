@@ -25,7 +25,7 @@ namespace CRON_JOB_URL.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("http://office.igenco.co.th/leave_igenco/validate-notify-api")]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://localhost/api/timestamp")]
         public string BaseUrl {
             get {
                 return ((string)(this["BaseUrl"]));
