@@ -49,6 +49,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CronNET\CronDaemon.cs" />
+    <Compile Include="CronNET\CronJob.cs" />
+    <Compile Include="CronNET\CronSchedule.cs" />
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
